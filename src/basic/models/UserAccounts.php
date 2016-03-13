@@ -117,7 +117,6 @@ class UserAccounts extends BaseUserAccounts implements UserConfirmableInterface,
         return $this->username;
     }
 
-<<<<<<< HEAD
     public function getFullname(){
         if($this->full_name){
             return $this->full_name;
@@ -154,8 +153,6 @@ class UserAccounts extends BaseUserAccounts implements UserConfirmableInterface,
         }
     }
 
-=======
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
     /**
      * Do all jobs after register
      * @return boolean

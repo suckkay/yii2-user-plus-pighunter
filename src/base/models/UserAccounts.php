@@ -83,22 +83,15 @@ class UserAccounts extends ActiveRecord implements IdentityInterface {
      */
     public $password;
 
-<<<<<<< HEAD
 
     public $pict;
-=======
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
     /**
      *
      * @var string User comfirm password(Need for creat,register,change password)
      */
     public $confirm_password;
     
-<<<<<<< HEAD
     public $retype_password;
-=======
-    
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
     /**
      *
      * @var string Old password use for change password
@@ -148,13 +141,8 @@ class UserAccounts extends ActiveRecord implements IdentityInterface {
             'block' => ['blocked_at'],
             'unblock' => ['blocked_at'],
             'toggle-administrator' => ['administrator'],
-<<<<<<< HEAD
             'update'=> ['password', 'confirm_password' , 'gender','birth_date' , 'birth_place' , 'full_name', 'address', 'mobile_phone' ,'pict_url'],
             'change_password' => ['password', 'retype_password', 'confirm_password','new_password','old_password'],
-=======
-            'update'=> ['password', 'confirm_password'],
-            'change_password' => ['password', 'confirm_password','new_password','old_password'],
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
         ];
     }
     
@@ -179,15 +167,12 @@ class UserAccounts extends ActiveRecord implements IdentityInterface {
             'confirmed_at' => Yii::t('app', 'Confirmed At'),
             'created_at' => Yii::t('app', 'Created At'),
             'updated_at' => Yii::t('app', 'Updated At'),
-<<<<<<< HEAD
             'birth_date'=>Yii::t('app', 'Birth date'),
             'birth_place'=>Yii::t('app', 'Birth Place'), 
             'mobile_phone'=>Yii::t('app', 'Mobile'), 
             'full_name'=>Yii::t('app', 'Full Name'),
             'gender'=>Yii::t('app', 'Gender'),
             'pict_url'=>Yii::t('app', 'Avatar')
-=======
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
         ]; 
     } 
 
