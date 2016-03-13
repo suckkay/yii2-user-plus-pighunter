@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "name": "johnitvn/yii2-user-plus",
+=======
+    "name": "suckkay/yii2-user-plus-pighunter",
+>>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
     "description":"High flexible user management extension for yii2",
     "type": "yii2-extension",
     "license": "Apache-2.0",
@@ -24,7 +28,17 @@
         "yiisoft/yii2-swiftmailer": "~2.0",
         "yiisoft/yii2-authclient": "~2.0",
         "yiisoft/yii2-jui": "*",
+<<<<<<< HEAD
         "johnitvn/yii2-ajaxcrud": "2.0.3"
+=======
+        "johnitvn/yii2-ajaxcrud": "2.0.3",
+        "yiisoft/yii2-imagine": "^2.0",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "mdmsoft/yii2-admin": "~2.0",
+        "yiisoft/yii2-imagine": "^2.0",
+        "kartik-v/yii2-widget-fileinput": "^1.0",
+        "nex/yii2-datepicker": "*"
+>>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
     },
     "autoload": {
         "psr-4": {
