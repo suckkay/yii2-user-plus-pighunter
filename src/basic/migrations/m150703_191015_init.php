@@ -10,16 +10,14 @@ class m150703_191015_init extends BaseMigration {
             'id' => Schema::TYPE_PK,
             'login' => Schema::TYPE_STRING . '(255) NOT NULL',
             'username' => Schema::TYPE_STRING . '(255) NOT NULL',
-<<<<<<< HEAD
             'full_name'=>Schema::TYPE_STRING.'(255)',
             'gender'=>Schema::TYPE_INTEGER,
-            'birt_place'=>Schema::TYPE_STRING.'(255)',
-            'birt_date'=>Schema::TYPE_DATE,
+            'birth_place'=>Schema::TYPE_STRING.'(255)',
+            'birth_date'=>Schema::TYPE_DATE,
             'pict_url'=>Schema::TYPE_STRING.'(255)',
             'address'=>Schema::TYPE_TEXT,
             'mobile_phone'=>Schema::TYPE_STRING . '(13)',
-=======
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
+
             'password_hash' => Schema::TYPE_STRING . '(255) NOT NULL',
             'auth_key' => Schema::TYPE_STRING . '(255) NOT NULL',
             'administrator' => Schema::TYPE_INTEGER,
