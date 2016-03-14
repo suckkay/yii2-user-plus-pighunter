@@ -15,7 +15,7 @@
         "source": "https://github.com/suckkay/yii2-user-plus"
     },
     "suggest": {
-        "suckkay/yii2-rbac-plus": "Database role base access control manager for yii2"
+        "johnitvn/yii2-rbac-plus": "Database role base access control manager for yii2"
     },
     "minimum-stability": "dev",
     "require": {
@@ -24,7 +24,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0",
         "yiisoft/yii2-authclient": "~2.0",
         "yiisoft/yii2-jui": "*",
-        "suckkay/yii2-ajaxcrud": "2.0.3",
+        "johnitvn/yii2-ajaxcrud": "2.0.3",
         "yiisoft/yii2-imagine": "^2.0",
         "dmstr/yii2-adminlte-asset": "2.*",
         "mdmsoft/yii2-admin": "~2.0",
