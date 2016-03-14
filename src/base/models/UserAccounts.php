@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\base\models;
+namespace suckkay\userplus\base\models;
 
 use Yii;
-use johnitvn\userplus\base\ActiveRecord;
+use suckkay\userplus\base\ActiveRecord;
 use yii\web\IdentityInterface;
 
 /**

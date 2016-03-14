@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\userplus;
+namespace suckkay\userplus;
 
 use Yii;
 use yii\base\BootstrapInterface;
@@ -22,7 +22,7 @@ class Bootstrap implements BootstrapInterface {
 
             // Set alias for extension source
             Yii::setAlias("@userplus", __DIR__);
-            Yii::setAlias("@johnitvn/userplus", __DIR__);
+            Yii::setAlias("@suckkay/userplus", __DIR__);
 
             // Setup i18n compoment for translate all category user*
             if (!isset(Yii::$app->get('i18n')->translations['user*'])) {
@@ -42,12 +42,12 @@ class Bootstrap implements BootstrapInterface {
                     ];
                 }
                 // Don't catch all controller with its namespace
-                $module->controllerNamespace = 'johnitvn\userplus\fake';
+                $module->controllerNamespace = 'suckkay\userplus\fake';
             }
 
             if (Yii::$app->hasModule('rbac')) {
                 $rbacModule = Yii::$app->getModule('rbac');             
-                if (get_class($rbacModule) === 'johnitvn\rbacplus\Module') {
+                if (get_class($rbacModule) === 'suckkay\rbacplus\Module') {
                     $rbacModule->beforeCreateController = [$this, 'beforeRbacCreateController'];
                 }
             }

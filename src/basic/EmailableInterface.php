@@ -1,5 +1,5 @@
 <?php
-namespace johnitvn\userplus\basic;
+namespace suckkay\userplus\basic;
 
 
 /**

@@ -1,5 +1,5 @@
 <?php
-namespace johnitvn\userplus\base;
+namespace suckkay\userplus\base;
 
 use Yii;
 use yii\web\Controller;
@@ -13,7 +13,7 @@ use yii\web\Controller;
 class WebController extends Controller {
 
      /**
-     * @var Module The curent user plus module(Subclass of johnitvn\userplus\base\Module)
+     * @var Module The curent user plus module(Subclass of suckkay\userplus\base\Module)
      */
     protected $userPlusModule;
 

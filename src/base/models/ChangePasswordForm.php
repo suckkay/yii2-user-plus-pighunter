@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\base\models;
+namespace suckkay\userplus\base\models;
 
 use Yii;
-use johnitvn\userplus\base\Model;
+use suckkay\userplus\base\Model;
 
 /**
  * Change password form get user's old password and new password, validates them

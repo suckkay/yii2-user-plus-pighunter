@@ -1,9 +1,9 @@
 <?php
-namespace johnitvn\userplus\basic\models;
+namespace suckkay\userplus\basic\models;
 
 use Yii;
 
-use johnitvn\userplus\simple\models\LoginForm as BaseLoginForm;
+use suckkay\userplus\simple\models\LoginForm as BaseLoginForm;
 
 /**
  *

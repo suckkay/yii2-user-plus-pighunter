@@ -2,8 +2,8 @@
 use yii\helpers\Html;
 use yii\bootstrap\Modal;
 use kartik\grid\GridView;
-use johnitvn\ajaxcrud\CrudAsset; 
-use johnitvn\ajaxcrud\BulkButtonWidget;
+use suckkay\ajaxcrud\CrudAsset; 
+use suckkay\ajaxcrud\BulkButtonWidget;
 
 $this->title = 'Users';
 $this->params['breadcrumbs'][] = $this->title;

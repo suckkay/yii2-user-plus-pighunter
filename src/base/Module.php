@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\userplus\base;
+namespace suckkay\userplus\base;
 
 use Yii;
 use yii\helpers\ArrayHelper;

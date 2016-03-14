@@ -1,8 +1,8 @@
 <?php
 
-namespace johnitvn\userplus\simple\controllers;
+namespace suckkay\userplus\simple\controllers;
 
-use johnitvn\userplus\base\WebController;
+use suckkay\userplus\base\WebController;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 
@@ -67,18 +67,18 @@ class SecurityController extends WebController {
     public function actions() {
         return [
             'logout' => [
-                'class' => 'johnitvn\userplus\base\actions\LogoutAction',
+                'class' => 'suckkay\userplus\base\actions\LogoutAction',
             ],
             'login' => [
-                'class' => 'johnitvn\userplus\base\actions\LoginAction',
+                'class' => 'suckkay\userplus\base\actions\LoginAction',
                 'view' => $this->loginView,
             ],
             'register' => [
-                'class' => 'johnitvn\userplus\base\actions\RegisterAction',
+                'class' => 'suckkay\userplus\base\actions\RegisterAction',
                 'view' => $this->registerView,
             ],
             'change-password' => [
-                'class' => 'johnitvn\userplus\base\actions\ChangePasswordAction',
+                'class' => 'suckkay\userplus\base\actions\ChangePasswordAction',
                 'view' => $this->changePasswordView,
             ],
         ];

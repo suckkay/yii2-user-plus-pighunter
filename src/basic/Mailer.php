@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\userplus\basic;
+namespace suckkay\userplus\basic;
 
 use Yii;
 use yii\base\Object;

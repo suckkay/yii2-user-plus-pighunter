@@ -1,5 +1,5 @@
 <?php
-namespace johnitvn\userplus\base\traits;
+namespace suckkay\userplus\base\traits;
 
 use Yii;
 use yii\base\Model;

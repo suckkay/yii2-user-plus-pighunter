@@ -1,13 +1,13 @@
 <?php
 
-namespace johnitvn\userplus\basic\models;
+namespace suckkay\userplus\basic\models;
 
 use Yii;
 use yii\helpers\Url;
-use johnitvn\userplus\Helper;
-use johnitvn\userplus\basic\UserConfirmableInterface;
-use johnitvn\userplus\basic\UserRecoveryableInterface;
-use johnitvn\userplus\base\models\UserAccounts as BaseUserAccounts;
+use suckkay\userplus\Helper;
+use suckkay\userplus\basic\UserConfirmableInterface;
+use suckkay\userplus\basic\UserRecoveryableInterface;
+use suckkay\userplus\base\models\UserAccounts as BaseUserAccounts;
 
 /**
  *
@@ -57,8 +57,8 @@ class UserAccounts extends BaseUserAccounts implements UserConfirmableInterface,
     const AFTER_RECOVERY = 'afterRecovery';
 
     /**
-     * Instace of johnitvn\userplus\basic\Mailer
-     * @var johnitvn\userplus\basic\Mailer 
+     * Instace of suckkay\userplus\basic\Mailer
+     * @var suckkay\userplus\basic\Mailer 
      */
     protected $mailer;
 

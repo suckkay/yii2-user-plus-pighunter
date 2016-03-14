@@ -1,13 +1,13 @@
 <?php
 
-namespace johnitvn\userplus\simple\models;
+namespace suckkay\userplus\simple\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
  * UserSearch represents the model behind the search form 
- * about `johnitvn\userplus\simple\models\UserAccounts`.
+ * about `suckkay\userplus\simple\models\UserAccounts`.
  * @author John Martin <john.itvn@gmail.com>
  * @since 1.0.0
  */

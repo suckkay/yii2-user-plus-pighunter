@@ -120,7 +120,7 @@ $columns[] =   [
     'filter' => [0 => 'Not Admin', 1 => 'Admin'],
 ];
     
-if (get_class($rbacModule) === 'johnitvn\rbacplus\Module') {
+if (get_class($rbacModule) === 'suckkay\rbacplus\Module') {
     /**
      * Intergrate with Rbac Plus extension
      */

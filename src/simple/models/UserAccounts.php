@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\simple\models;
+namespace suckkay\userplus\simple\models;
 
 use Yii;
-use johnitvn\userplus\base\models\UserAccounts as BaseUserAccounts;
+use suckkay\userplus\base\models\UserAccounts as BaseUserAccounts;
 
 /**
  * User Accounts is model class of table 'user_accounts'

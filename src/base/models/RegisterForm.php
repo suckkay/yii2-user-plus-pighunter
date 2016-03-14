@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\base\models;
+namespace suckkay\userplus\base\models;
 
 use Yii;
-use johnitvn\userplus\base\Model;
+use suckkay\userplus\base\Model;
 
 /**
  * Registration form collects user input on registration process, validates it and creates new User model.

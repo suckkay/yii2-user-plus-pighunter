@@ -1,8 +1,8 @@
 <?php
 
-namespace johnitvn\userplus\simple;
+namespace suckkay\userplus\simple;
 
-use johnitvn\userplus\base\Module as BaseModule;
+use suckkay\userplus\base\Module as BaseModule;
 
 /**
  * Module implments user plus base and useful for simple bussines.
@@ -69,11 +69,11 @@ class Module extends BaseModule {
      */
     protected function getDefaultModelMap() {
         return [
-            'UserSearch' => 'johnitvn\userplus\simple\models\UserSearch',
-            'UserAccounts' => 'johnitvn\userplus\simple\models\UserAccounts',
-            'LoginForm' => 'johnitvn\userplus\simple\models\LoginForm',
-            'RegisterForm' => 'johnitvn\userplus\simple\models\RegisterForm',
-            'ChangePasswordForm' => 'johnitvn\userplus\simple\models\ChangePasswordForm',
+            'UserSearch' => 'suckkay\userplus\simple\models\UserSearch',
+            'UserAccounts' => 'suckkay\userplus\simple\models\UserAccounts',
+            'LoginForm' => 'suckkay\userplus\simple\models\LoginForm',
+            'RegisterForm' => 'suckkay\userplus\simple\models\RegisterForm',
+            'ChangePasswordForm' => 'suckkay\userplus\simple\models\ChangePasswordForm',
         ];
     }
 
@@ -82,7 +82,7 @@ class Module extends BaseModule {
      * @return array The console app controller namespace
      */
     protected function getConsoleControllerNamespace() {
-        return 'johnitvn\userplus\simple\commands';
+        return 'suckkay\userplus\simple\commands';
     }
 
     /**
@@ -90,7 +90,7 @@ class Module extends BaseModule {
      * @return string The web app controller namespace
      */
     protected function getWebControllerNamespace() {
-        return 'johnitvn\userplus\simple\controllers';
+        return 'suckkay\userplus\simple\controllers';
     }
 
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace johnitvn\userplus\basic;
+namespace suckkay\userplus\basic;
 
-use johnitvn\userplus\simple\Module as BaseModule;
+use suckkay\userplus\simple\Module as BaseModule;
 
 /**
  * Module implments user plus base and useful for basic bussines.
@@ -42,13 +42,13 @@ class Module extends BaseModule {
 
     /**
      *
-     * @var johnitvn\userplus\basic\Mailer The mailer instance 
+     * @var suckkay\userplus\basic\Mailer The mailer instance 
      */
     public $mailer;
 
     public function init() {
         parent::init();
-        $mailer = \yii\helpers\ArrayHelper::merge($this->mailer, ['class' => 'johnitvn\userplus\basic\Mailer']);
+        $mailer = \yii\helpers\ArrayHelper::merge($this->mailer, ['class' => 'suckkay\userplus\basic\Mailer']);
         $this->mailer = \Yii::createObject($mailer);
     }
 
@@ -66,11 +66,11 @@ class Module extends BaseModule {
      */
     protected function getDefaultModelMap() {
         $parentMap = parent::getDefaultModelMap();
-        $parentMap['LoginForm'] = 'johnitvn\userplus\basic\models\LoginForm';
-        $parentMap['RegisterForm'] = 'johnitvn\userplus\basic\models\RegisterForm';
-        $parentMap['UserAccounts'] = 'johnitvn\userplus\basic\models\UserAccounts';
-        $parentMap['RecoveryForm'] = 'johnitvn\userplus\basic\models\RecoveryForm';
-        $parentMap['ResendForm'] = 'johnitvn\userplus\basic\models\ResendForm';
+        $parentMap['LoginForm'] = 'suckkay\userplus\basic\models\LoginForm';
+        $parentMap['RegisterForm'] = 'suckkay\userplus\basic\models\RegisterForm';
+        $parentMap['UserAccounts'] = 'suckkay\userplus\basic\models\UserAccounts';
+        $parentMap['RecoveryForm'] = 'suckkay\userplus\basic\models\RecoveryForm';
+        $parentMap['ResendForm'] = 'suckkay\userplus\basic\models\ResendForm';
         return $parentMap;
     }
 
@@ -79,7 +79,7 @@ class Module extends BaseModule {
      * @return string The web app controller namespace
      */
     protected function getWebControllerNamespace() {
-        return 'johnitvn\userplus\basic\controllers';
+        return 'suckkay\userplus\basic\controllers';
     }
 
     /**
@@ -87,7 +87,7 @@ class Module extends BaseModule {
      * @return array The console app controller namespace
      */
     protected function getConsoleControllerNamespace() {
-        return 'johnitvn\userplus\basic\commands';
+        return 'suckkay\userplus\basic\commands';
     }
 
 }

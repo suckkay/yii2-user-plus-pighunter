@@ -1,6 +1,6 @@
 <?php
 use yii\widgets\DetailView;
-use johnitvn\userplus\base\models\UserAccounts;
+use suckkay\userplus\base\models\UserAccounts;
 use yii\helpers\Html;
 ?>
 <div class="user-view">

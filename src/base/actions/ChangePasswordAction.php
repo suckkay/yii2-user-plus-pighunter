@@ -1,9 +1,9 @@
 <?php
-namespace johnitvn\userplus\base\actions;
+namespace suckkay\userplus\base\actions;
 
 use Yii;
-use johnitvn\userplus\base\Action;
-use johnitvn\userplus\base\traits\AjaxValidationTrait;
+use suckkay\userplus\base\Action;
+use suckkay\userplus\base\traits\AjaxValidationTrait;
 
 /**
 * Change password action will be handler user change password request

@@ -13,11 +13,11 @@ Default user register is disable.
 Default list of model map for simple module is
 ````php
   [
-    'UserSearch' => 'johnitvn\userplus\simple\models\UserSearch',
-    'UserAccounts' => 'johnitvn\userplus\simple\models\UserAccounts',
-    'LoginForm' => 'johnitvn\userplus\simple\models\LoginForm',
-    'RegisterForm' => 'johnitvn\userplus\simple\models\RegisterForm',
-    'ChangePasswordForm' => 'johnitvn\userplus\simple\models\ChangePasswordForm',
+    'UserSearch' => 'suckkay\userplus\simple\models\UserSearch',
+    'UserAccounts' => 'suckkay\userplus\simple\models\UserAccounts',
+    'LoginForm' => 'suckkay\userplus\simple\models\LoginForm',
+    'RegisterForm' => 'suckkay\userplus\simple\models\RegisterForm',
+    'ChangePasswordForm' => 'suckkay\userplus\simple\models\ChangePasswordForm',
   ]
 ````
 + <b>enableSecurityHandler(boolean)</b>: Enable/Disable security controller. 

@@ -1,10 +1,10 @@
 <?php
 
-namespace johnitvn\userplus\basic\controllers;
+namespace suckkay\userplus\basic\controllers;
 
 use Yii;
 use yii\filters\AccessControl;
-use johnitvn\userplus\base\WebController;
+use suckkay\userplus\base\WebController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use \yii\web\Response;
@@ -132,7 +132,7 @@ class ProfileController extends WebController {
      * Finds the UserAccounts model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return johnitvn\userplus\base\models\UserAccounts the loaded model
+     * @return suckkay\userplus\base\models\UserAccounts the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id) {

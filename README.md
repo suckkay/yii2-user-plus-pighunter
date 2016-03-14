@@ -1,10 +1,10 @@
 #Yii2-user-plus 
 
-[![Latest Stable Version](https://poser.pugx.org/johnitvn/yii2-user-plus/v/stable)](https://packagist.org/packages/johnitvn/yii2-user-plus)
-[![License](https://poser.pugx.org/johnitvn/yii2-user-plus/license)](https://packagist.org/packages/johnitvn/yii2-user-plus)
-[![Total Downloads](https://poser.pugx.org/johnitvn/yii2-user-plus/downloads)](https://packagist.org/packages/johnitvn/yii2-user-plus)
-[![Monthly Downloads](https://poser.pugx.org/johnitvn/yii2-user-plus/d/monthly)](https://packagist.org/packages/johnitvn/yii2-user-plus)
-[![Daily Downloads](https://poser.pugx.org/johnitvn/yii2-user-plus/d/daily)](https://packagist.org/packages/johnitvn/yii2-user-plus)
+[![Latest Stable Version](https://poser.pugx.org/suckkay/yii2-user-plus/v/stable)](https://packagist.org/packages/suckkay/yii2-user-plus)
+[![License](https://poser.pugx.org/suckkay/yii2-user-plus/license)](https://packagist.org/packages/suckkay/yii2-user-plus)
+[![Total Downloads](https://poser.pugx.org/suckkay/yii2-user-plus/downloads)](https://packagist.org/packages/suckkay/yii2-user-plus)
+[![Monthly Downloads](https://poser.pugx.org/suckkay/yii2-user-plus/d/monthly)](https://packagist.org/packages/suckkay/yii2-user-plus)
+[![Daily Downloads](https://poser.pugx.org/suckkay/yii2-user-plus/d/daily)](https://packagist.org/packages/suckkay/yii2-user-plus)
 
 <b>User Plus</b> is high flexible user management extension for yii2.
 
@@ -13,10 +13,10 @@ Or some applications else need reset forgotten passwords feature. Rather than re
 
 
 ##Document
-[Modules Business Concept](https://github.com/johnitvn/yii2-user-plus/blob/master/docs/BusinessConcept.md)<BR>
-[Instalation](https://github.com/johnitvn/yii2-user-plus/blob/master/docs/Installation.md)<BR>
-[General Usage](https://github.com/johnitvn/yii2-user-plus/blob/master/docs/GeneralUsage.md)<BR>
-[Definitive Guide](https://github.com/johnitvn/yii2-user-plus/tree/master/docs)<BR>
+[Modules Business Concept](https://github.com/suckkay/yii2-user-plus/blob/master/docs/BusinessConcept.md)<BR>
+[Instalation](https://github.com/suckkay/yii2-user-plus/blob/master/docs/Installation.md)<BR>
+[General Usage](https://github.com/suckkay/yii2-user-plus/blob/master/docs/GeneralUsage.md)<BR>
+[Definitive Guide](https://github.com/suckkay/yii2-user-plus/tree/master/docs)<BR>
 
 
 

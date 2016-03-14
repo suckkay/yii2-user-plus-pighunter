@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\userplus\base;
+namespace suckkay\userplus\base;
 
 use Yii;
 use yii\base\Model as YiiModel;
@@ -14,7 +14,7 @@ use yii\base\Model as YiiModel;
 class Model extends YiiModel {
 
      /**
-     * @var Module The curent user plus module(Subclass of johnitvn\userplus\base\Module)
+     * @var Module The curent user plus module(Subclass of suckkay\userplus\base\Module)
      */
     protected $userPlusModule;
 

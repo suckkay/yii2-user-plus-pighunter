@@ -20,7 +20,7 @@ $ yii user/create-admin
 
 The information of account depending on the module you choose. 
 Example for simple module you need username/email and password.
-The default login field is username. You can see [Configuration](https://github.com/johnitvn/yii2-user-plus/tree/master/docs#2-configuration) for more information
+The default login field is username. You can see [Configuration](https://github.com/suckkay/yii2-user-plus/tree/master/docs#2-configuration) for more information
 
 ### Listing of available route
 After create administrator you can login to application , the listing of available route is:<BR>

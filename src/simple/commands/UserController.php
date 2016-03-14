@@ -1,8 +1,8 @@
 <?php
 
-namespace johnitvn\userplus\simple\commands;
+namespace suckkay\userplus\simple\commands;
 
-use johnitvn\userplus\base\ConsoleController;
+use suckkay\userplus\base\ConsoleController;
 
 /**
  * User manager commands
@@ -17,7 +17,7 @@ class UserController extends ConsoleController {
      */
     public function actions() {
         return [
-            'create-admin' => 'johnitvn\userplus\simple\actions\CommandCreateAction',
+            'create-admin' => 'suckkay\userplus\simple\actions\CommandCreateAction',
         ];
     }
 

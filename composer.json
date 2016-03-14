@@ -5,17 +5,17 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "John Martin",
-            "email": "john.itvn@gmail.com",
-            "homepage": "https://github.com/johnitvn?tab=repositories"
+            "name": "Arif Rahman",
+            "email": "huyadesakai@gmail.com",
+            "homepage": "https://github.com/scukkay?tab=repositories"
         }
     ],
     "support": {
-        "issues": "https://github.com/johnitvn/yii2-user-plus/issues?state=open",
-        "source": "https://github.com/johnitvn/yii2-user-plus"
+        "issues": "https://github.com/suckkay/yii2-user-plus/issues?state=open",
+        "source": "https://github.com/suckkay/yii2-user-plus"
     },
     "suggest": {
-        "johnitvn/yii2-rbac-plus": "Database role base access control manager for yii2"
+        "suckkay/yii2-rbac-plus": "Database role base access control manager for yii2"
     },
     "minimum-stability": "dev",
     "require": {
@@ -24,7 +24,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0",
         "yiisoft/yii2-authclient": "~2.0",
         "yiisoft/yii2-jui": "*",
-        "johnitvn/yii2-ajaxcrud": "2.0.3",
+        "suckkay/yii2-ajaxcrud": "2.0.3",
         "yiisoft/yii2-imagine": "^2.0",
         "dmstr/yii2-adminlte-asset": "2.*",
         "mdmsoft/yii2-admin": "~2.0",
@@ -33,10 +33,10 @@
     },
     "autoload": {
         "psr-4": {
-            "johnitvn\\userplus\\": "src/"
+            "suckkay\\userplus\\": "src/"
         }
     },
     "extra": {
-        "bootstrap": "johnitvn\\userplus\\Bootstrap"
+        "bootstrap": "suckkay\\userplus\\Bootstrap"
     }
 }

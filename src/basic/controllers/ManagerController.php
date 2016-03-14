@@ -1,9 +1,9 @@
 <?php
-namespace johnitvn\userplus\basic\controllers;
+namespace suckkay\userplus\basic\controllers;
 
 use Yii;
 use yii\web\Response;
-use johnitvn\userplus\simple\controllers\ManagerController as BaseController;
+use suckkay\userplus\simple\controllers\ManagerController as BaseController;
 
 /**
  * ManagerController implements the CRUD actions for User model.

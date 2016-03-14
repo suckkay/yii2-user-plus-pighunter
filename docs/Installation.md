@@ -6,13 +6,13 @@ After you choose module business you want. Now, go to configuration.
 ````php
 'modules'=>[
     'user'=>[
-        'class'=>'johnitvn\userplus\{{ModuleName}}\Module',
+        'class'=>'suckkay\userplus\{{ModuleName}}\Module',
         // You can add other config after
     ]
 ],
 'components'=>[
     'user' => [
-        'identityClass' => 'johnitvn\userplus\{{ModuleName}}\models\UserAccounts',
+        'identityClass' => 'suckkay\userplus\{{ModuleName}}\models\UserAccounts',
     ],
 ]
 ````
@@ -21,12 +21,12 @@ Let replace `{{ModuleName}}` to simple or basic or advanced
 2. Next, add to console config following bellow:
 ````php
 'modules'=>[
-    'user'=>'johnitvn\userplus\{{ModuleName}}\Module',
+    'user'=>'suckkay\userplus\{{ModuleName}}\Module',
 ],
 'components'=>[
     'user' => [
         'class'=>'yii\web\User',
-        'identityClass' => 'johnitvn\userplus\{{ModuleName}}\models\UserAccounts',
+        'identityClass' => 'suckkay\userplus\{{ModuleName}}\models\UserAccounts',
         'loginUrl'=>'/user/security/login'
     ],
 ]

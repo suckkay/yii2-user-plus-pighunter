@@ -1,10 +1,10 @@
 <?php
 
-namespace johnitvn\userplus\simple\actions;
+namespace suckkay\userplus\simple\actions;
 
 use Yii;
 use yii\helpers\Console;
-use johnitvn\userplus\base\Command;
+use suckkay\userplus\base\Command;
 
 /**
  * Command create action will be handler create administrator command from yii console applcation.

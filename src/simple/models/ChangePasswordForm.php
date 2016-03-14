@@ -1,7 +1,7 @@
 <?php
-namespace johnitvn\userplus\simple\models;
+namespace suckkay\userplus\simple\models;
 
-use johnitvn\userplus\base\models\ChangePasswordForm as BaseChangePasswordForm;
+use suckkay\userplus\base\models\ChangePasswordForm as BaseChangePasswordForm;
 
 /**
  * Change password form get user's old password and new password, validates them

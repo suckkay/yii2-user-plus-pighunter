@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\basic\models;
+namespace suckkay\userplus\basic\models;
 
 use Yii;
-use johnitvn\userplus\base\Model;
+use suckkay\userplus\base\Model;
 
 /**
  *

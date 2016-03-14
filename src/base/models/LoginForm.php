@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\base\models;
+namespace suckkay\userplus\base\models;
 
 use Yii;
-use johnitvn\userplus\base\Model;
+use suckkay\userplus\base\Model;
 
 /**
  * LoginForm get user's login and password, validates them and logs the user in. 
@@ -21,7 +21,7 @@ class LoginForm extends Model{
     /** @var string Whether to remember the user */
     public $rememberMe = false;
 
-    /** @var johnitvn\userplus\base\models\UserAccounts The instance of johnitvn\userplus\base\models\UserAccounts*/
+    /** @var suckkay\userplus\base\models\UserAccounts The instance of suckkay\userplus\base\models\UserAccounts*/
     protected $user;
 
        

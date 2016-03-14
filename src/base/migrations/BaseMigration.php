@@ -1,5 +1,5 @@
 <?php
-namespace johnitvn\userplus\base\migrations;
+namespace suckkay\userplus\base\migrations;
 
 use Yii;
 

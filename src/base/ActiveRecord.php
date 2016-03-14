@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\userplus\base;
+namespace suckkay\userplus\base;
 
 use Yii;
 use yii\db\ActiveRecord as YiiActiveRecord;
@@ -14,7 +14,7 @@ use yii\db\ActiveRecord as YiiActiveRecord;
 class ActiveRecord extends YiiActiveRecord {
 
     /**
-     * @var Module The curent user plus module(Subclass of johnitvn\userplus\base\Module)
+     * @var Module The curent user plus module(Subclass of suckkay\userplus\base\Module)
      */
     protected $userPlusModule;
 

@@ -1,7 +1,7 @@
 <?php
 
 use yii\db\Schema;
-use johnitvn\userplus\base\migrations\BaseMigration;
+use suckkay\userplus\base\migrations\BaseMigration;
 
 class m150703_191015_init extends BaseMigration {
 

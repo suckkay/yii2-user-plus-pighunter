@@ -1,5 +1,5 @@
 <?php
-namespace johnitvn\userplus;
+namespace suckkay\userplus;
 
 /**
  * The helper class contain helper functions

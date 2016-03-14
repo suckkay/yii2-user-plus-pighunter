@@ -1,10 +1,10 @@
 <?php
 
-namespace johnitvn\userplus\basic\actions;
+namespace suckkay\userplus\basic\actions;
 
 use Yii;
-use johnitvn\userplus\base\Action;
-use johnitvn\userplus\base\traits\AjaxValidationTrait;
+use suckkay\userplus\base\Action;
+use suckkay\userplus\base\traits\AjaxValidationTrait;
 
 /**
  * Reset password action handler user reset password request

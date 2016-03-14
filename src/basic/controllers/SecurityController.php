@@ -1,8 +1,8 @@
 <?php
 
-namespace johnitvn\userplus\basic\controllers;
+namespace suckkay\userplus\basic\controllers;
 
-use johnitvn\userplus\simple\controllers\SecurityController as BaseController;
+use suckkay\userplus\simple\controllers\SecurityController as BaseController;
 
 /**
  * Security controller contain all bussiness action for user manager flow.
@@ -20,10 +20,10 @@ class SecurityController extends BaseController {
      */
     public function actions() {
         $actions = parent::actions();
-        $actions['confirm'] = 'johnitvn\userplus\basic\actions\ConfirmAction';
-        $actions['recovery'] = 'johnitvn\userplus\basic\actions\RecoveryPasswordAction';
-        $actions['reset'] = 'johnitvn\userplus\basic\actions\ResetPasswordAction';
-        $actions['resend'] = 'johnitvn\userplus\basic\actions\ResendConfirmAction';
+        $actions['confirm'] = 'suckkay\userplus\basic\actions\ConfirmAction';
+        $actions['recovery'] = 'suckkay\userplus\basic\actions\RecoveryPasswordAction';
+        $actions['reset'] = 'suckkay\userplus\basic\actions\ResetPasswordAction';
+        $actions['resend'] = 'suckkay\userplus\basic\actions\ResendConfirmAction';
         return $actions;
     }
 

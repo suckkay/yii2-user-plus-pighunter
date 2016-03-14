@@ -1,8 +1,8 @@
 <?php
-namespace johnitvn\userplus\simple\models;
+namespace suckkay\userplus\simple\models;
 
 use Yii;
-use johnitvn\userplus\base\models\LoginForm as BaseLoginForm;
+use suckkay\userplus\base\models\LoginForm as BaseLoginForm;
 
 /**
  * LoginForm get user's login and password, validates them and logs the user in. 

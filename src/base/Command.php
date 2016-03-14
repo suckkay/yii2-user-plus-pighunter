@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\userplus\base;
+namespace suckkay\userplus\base;
 
 use Yii;
 use yii\base\Action as YiiAction;
@@ -15,7 +15,7 @@ use yii\base\Action as YiiAction;
 class Command extends YiiAction {
 
     /**
-     * @var Module The curent user plus module(Subclass of johnitvn\userplus\base\Module)
+     * @var Module The curent user plus module(Subclass of suckkay\userplus\base\Module)
      */
     protected $userPlusModule;
 
