@@ -33,10 +33,8 @@ class m150703_191015_init extends BaseMigration {
         
         $this->createIndex('user_unique_login', 'user_accounts', 'login', true);
         $this->createIndex('user_unique_username', 'user_accounts', 'username', true);
-<<<<<<< HEAD
+
         $this->createIndex('user_unique_phone', 'user_accounts', 'mobile_phone', true);
-=======
->>>>>>> fd17e4df38116eb85d24b57bd08fe45b261bf6c8
     }
 
     public function down() {
