@@ -36,6 +36,6 @@
         }
     },
     "extra": {
-        "bootstrap": "johnitvn\\userplus\\Bootstrap"
+        "bootstrap": "suckkay\\userplus\\Bootstrap"
     }
 }
